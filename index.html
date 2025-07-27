@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/FlowBloom/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/FlowBloom/assets/index-C1XX4FnJ.css">
+    <link rel="stylesheet" crossorigin href="/FlowBloom/assets/index-CnDwBF4E.css">
   </head>
   <body>
     <header class="header">
@@ -747,7 +747,7 @@
                 Community support group
               </li>
             </ul>
-            <button class="pricing-btn button" data-modal-open>Join</button>
+            <button class="pricing-btn button" data-modal-open-10>Join</button>
           </li>
           <li class="pricing-plans-list-item">
             <div class="plan-item-title">
@@ -783,7 +783,7 @@
                 Community support group
               </li>
             </ul>
-            <button class="pricing-btn button" data-menu-open>Join</button>
+            <button class="pricing-btn button" data-modal-open-65>Join</button>
           </li>
           <li class="pricing-plans-list-item plan-plans-list-item-third">
             <div class="plan-item-title">
@@ -840,7 +840,7 @@
             <button
               class="pricing-btn pricing-btn-third button"
               type="button"
-              data-modal-open
+              data-modal-open-80
             >
               Join
             </button>
@@ -852,7 +852,7 @@
               <button
                 class="pricing-btn pricing-btn-third button"
                 type="button"
-                data-modal-open
+                data-modal-open-80-pads
               >
                 Join
               </button>
@@ -911,7 +911,7 @@
   </div>
 </section>
 
-      <div class="modal-overlay" data-modal>
+      <div class="modal-overlay is-open is-hidden" data-modal="10">
   <div class="modal container">
     <button type="button" class="modal-close-button" data-modal-close>
       <svg class="close-icon" width="32" height="32">
@@ -965,65 +965,91 @@
       <button type="submit" class="button">Go to checkout</button>
     </form>
   </div>
+</div>
 
+<div class="modal-overlay is-open is-hidden" data-modal="65">
   <div class="modal container">
-    <button type="button" class="modal-close-button" data-menu-close>
+    <button type="button" class="modal-close-button" data-modal-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/FlowBloom/assets/icons-DYM54S27.svg#icon-modal"></use>
       </svg>
     </button>
-
+  
     <h2 class="modal-heading">Join Now!</h2>
-
+  
     <p class="modal-text">One Session</p>
-
+  
     <h3 class="modal-price">$65</h3>
-
+  
     <form class="modal-request-form">
       <div class="modal-field-wrapper">
         <label for="modal-name-sxt-five" class="modal-label">Your Name</label>
-        <input
-          id="modal-name-sxt-five"
-          class="modal-form-field"
-          type="text"
-          placeholder="Placeholder"
-        />
+        <input id="modal-name-sxt-five" class="modal-form-field" type="text" placeholder="Placeholder" />
       </div>
-
+  
       <div class="modal-form-mid-wrapper">
         <div class="modal-field-wrapper">
           <label for="modal-email-sxt-five" class="modal-label">Email</label>
-          <input
-            id="modal-email-sxt-five"
-            class="modal-form-field"
-            type="email"
-            placeholder="Placeholder"
-          />
+          <input id="modal-email-sxt-five" class="modal-form-field" type="email" placeholder="Placeholder" />
         </div>
-
+  
         <div class="modal-field-wrapper">
-          <label for="modal-phone-sxt-five" class="modal-label"
-            >Phone number</label
-          >
-          <input
-            id="modal-phone-sxt-five"
-            class="modal-form-field"
-            type="tel"
-            placeholder="Placeholder"
-            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
-            required
-          />
-
+          <label for="modal-phone-sxt-five" class="modal-label">Phone number</label>
+          <input id="modal-phone-sxt-five" class="modal-form-field" type="tel" placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
+  
           <p class="text-invalid">Invalid phone number</p>
         </div>
       </div>
-
+  
       <button type="submit" class="button">Go to checkout</button>
     </form>
   </div>
+</div>
 
-  <div class="modal container" data-modal="80">
-    <button type="button" class="modal-close-button" data-menu-close>
+<div class="modal-overlay is-open is-hidden" data-modal="80">
+  <div class="modal container">
+    <button type="button" class="modal-close-button" data-modal-close>
+      <svg class="close-icon" width="32" height="32">
+        <use href="/FlowBloom/assets/icons-DYM54S27.svg#icon-modal"></use>
+      </svg>
+    </button>
+  
+    <h2 class="modal-heading">Join Now!</h2>
+  
+    <p class="modal-text">One Session</p>
+  
+    <h3 class="modal-price">$80</h3>
+  
+    <form class="modal-request-form">
+      <div class="modal-field-wrapper">
+        <label for="modal-name-eighty" class="modal-label">Your Name</label>
+        <input id="modal-name-eighty" class="modal-form-field" type="text" placeholder="Placeholder" />
+      </div>
+  
+      <div class="modal-field-wrapper">
+        <label for="modal-email-eighty" class="modal-label">Email</label>
+        <input id="modal-email-eighty" class="modal-form-field" type="email" placeholder="Placeholder" />
+      </div>
+  
+      <div class="modal-form-mid-wrapper">
+        <div class="modal-field-wrapper">
+          <label for="modal-phone-eighty" class="modal-label">Phone number</label>
+          <input id="modal-phone-eighty" class="modal-form-field" type="tel" placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
+  
+          <p class="text-invalid">Invalid phone number</p>
+        </div>
+      </div>
+  
+      <button type="submit" class="button">Go to checkout</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay is-open is-hidden" data-modal="80-pads">
+  <div class="modal container">
+    <button type="button" class="modal-close-button" data-modal-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/FlowBloom/assets/icons-DYM54S27.svg#icon-modal"></use>
       </svg>
@@ -1038,37 +1064,19 @@
     <form class="modal-request-form">
       <div class="modal-field-wrapper">
         <label for="modal-name-eighty" class="modal-label">Your Name</label>
-        <input
-          id="modal-name-eighty"
-          class="modal-form-field"
-          type="text"
-          placeholder="Placeholder"
-        />
+        <input id="modal-name-eighty" class="modal-form-field" type="text" placeholder="Placeholder" />
       </div>
 
       <div class="modal-field-wrapper">
         <label for="modal-email-eighty" class="modal-label">Email</label>
-        <input
-          id="modal-email-eighty"
-          class="modal-form-field"
-          type="email"
-          placeholder="Placeholder"
-        />
+        <input id="modal-email-eighty" class="modal-form-field" type="email" placeholder="Placeholder" />
       </div>
 
       <div class="modal-form-mid-wrapper">
         <div class="modal-field-wrapper">
-          <label for="modal-phone-eighty" class="modal-label"
-            >Phone number</label
-          >
-          <input
-            id="modal-phone-eighty"
-            class="modal-form-field"
-            type="tel"
-            placeholder="Placeholder"
-            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
-            required
-          />
+          <label for="modal-phone-eighty" class="modal-label">Phone number</label>
+          <input id="modal-phone-eighty" class="modal-form-field" type="tel" placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
 
           <p class="text-invalid">Invalid phone number</p>
         </div>
@@ -1078,7 +1086,6 @@
     </form>
   </div>
 </div>
-
     </main>
 
     <footer class="footer" id="footer">
