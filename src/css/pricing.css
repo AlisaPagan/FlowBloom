@@ -2,12 +2,6 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.pricing-container {
-  width: 100%;
-}
-.pricing-title {
-  text-align: center;
-}
 .pricing-paragraph-title {
   font-weight: 600;
   line-height: 1.5;
@@ -25,10 +19,8 @@
   line-height: 1.6;
   text-align: center;
 }
-.pricing-plans {
-  margin-top: 48px;
-}
 .pricing-plans-list {
+  margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
