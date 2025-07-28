@@ -1,6 +1,8 @@
-.pricing-container {
+.pricing-section {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+.pricing-container {
   width: 100%;
 }
 .pricing-title {
@@ -92,9 +94,11 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .pricing-container {
+  .pricing-section {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .pricing-container {
     width: 100%;
   }
   .pricing-plans-list-item {
@@ -147,7 +151,7 @@
   }
 }
 @media only screen and (min-width: 1336px) {
-  .pricing-container {
+  .pricing-section {
     padding-top: 112px;
     padding-bottom: 112px;
   }
